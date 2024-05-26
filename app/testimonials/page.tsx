@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <Header></Header>
 
-      <div className="flex justify-center w-full p-5 pt-0 px-10">
+      <div className="flex justify-center w-full p-5 pt-0 px-10 animate-[fade-me-in_.5s_ease-in-out]">
         <div className="flex flex-col w-full max-w-[1040px] mt-[130px]">
           <div className="text-center">
             <div className="text-sm uppercase font-bold mb-2 text-[#007AFF] tracking-widest">Testimonials</div>
