@@ -9,9 +9,31 @@ export default function Home() {
 
       <div className="flex justify-center w-full p-5 pt-0 px-10">
         <div className="flex flex-col w-full max-w-[1040px] mt-[130px]">
-          <h1>Contact Us</h1><br />
-          Whether you have questions about our services, need a consultation, or are ready to start your next project, our team is here to help.
-          <br /><br />
+          <div className="text-center">
+            <div className="text-sm uppercase font-bold mb-2 text-[#007AFF] tracking-widest">Contact</div>
+            <div className="text-3xl font-bold tracking-wide">
+              Our Team is Here to Help
+            </div>
+          </div><br />
+
+          <div className="flex flex-row justify-center gap-x-[40px] mt-4 mb-4 text-lg">
+            <div>
+              Electronic
+            </div>
+            <div>
+              Telephone
+            </div>
+            <div>
+              Offices
+            </div>
+            <div>
+              Careers
+            </div>
+          </div>
+
+          <hr />
+          <br />
+
           <h1>Telephone</h1><br />
           Please reach us directly by phone at: 1-888-772-2448.
           <br /><br />

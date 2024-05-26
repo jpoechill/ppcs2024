@@ -9,11 +9,14 @@ export default function Home() {
 
       <div className="flex justify-center w-full p-5 pt-0 px-10">
         <div className="flex flex-col w-full max-w-[1040px] mt-[130px]">
-          <h1>About Us</h1><br />
-          Welcome to our company, where excellence in building restoration and preservation is our hallmark.
-          <br /><br />
+          <div className="text-center">
+            <div className="text-sm uppercase font-bold mb-2 text-[#007AFF] tracking-widest">About</div>
+            <div className="text-3xl font-bold tracking-wide">
+              Building Restoration and Preservation
+            </div>
+          </div><br />
 
-          <div className="flex flex-row justify-center gap-x-[40px] mt-4 mb-4 text-xl">
+          <div className="flex flex-row justify-center gap-x-[40px] mt-4 mb-4 text-lg">
             <div>
               Mission
             </div>

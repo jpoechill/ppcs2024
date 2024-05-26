@@ -9,10 +9,12 @@ export default function Home() {
 
       <div className="flex justify-center w-full p-5 pt-0 px-10">
         <div className="flex flex-col w-full max-w-[1040px] mt-[130px]">
-          <h1>Testimonials</h1><br />
-          We provide top-notch building restoration and preservation services, using expert teams and advanced techniques.
-          <br /><br />
-
+          <div className="text-center">
+            <div className="text-sm uppercase font-bold mb-2 text-[#007AFF] tracking-widest">Testimonials</div>
+            <div className="text-3xl font-bold tracking-wide">
+              Voices of Satisfied Customers
+            </div>
+          </div><br /><br />
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="grid auto-rows-min gap-6 justify-start">
               <div className="min-w-full bg-[white] border rounded-xl transition-all ease-in-out duration-500 shadow-[0_25px_50px_-12px_rgb(0,0,0,0.0)] hover:shadow-[0_10px_50px_-12px_rgb(0,0,0,.15)]  text-sm p-7 text-left">

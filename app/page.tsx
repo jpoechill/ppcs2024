@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="flex justify-center w-full p-5 pt-0 px-10">
         <div className="flex flex-row w-full max-w-[1040px] mt-[130px]">
-          <Image src="/cover_group.jpg" alt="Group Photo" className="rounded-2xl shadow-2xl" width={1200} height={300}></Image>
+          <Image src="/cover_group_02.jpg" alt="Group Photo" className="rounded-2xl shadow-2xl" width={1200} height={300}></Image>
         </div>
       </div>
 

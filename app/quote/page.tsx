@@ -71,9 +71,12 @@ export default function Home() {
 
       <div className="flex justify-center w-full p-5 pt-0 px-10">
         <div className="flex flex-col w-full max-w-[1040px] mt-[130px]">
-          <h1>Request a Quote</h1><br />
-          Questions about our services, need a consultation, or are ready to start your next project? Our team is here to help.
-          <br /><br />
+          <div className="text-center mb-4">
+            <div className="text-sm uppercase font-bold mb-2 text-[#007AFF] tracking-widest">Request a Quote</div>
+            <div className="text-3xl font-bold tracking-wide">
+              Ready to Start Your Next Project?
+            </div>
+          </div><br />
           <form ref={form} onSubmit={sendEmail}>
             <div className="text-md font-bold text-left bg-[#FFF] border shadow-lg py-8 rounded-2xl">
               <div ref={ref1} className="font-normal text-md overflow-hidden px-6 transition-all ease-in-out delay-0 duration-500" style={{ "height": !showGeneral ? 0 : heightRef1 }}>
@@ -97,20 +100,25 @@ export default function Home() {
                 <div className="flex flex-col md:flex-row gap-5 mb-5">
                   <div className="w-full">
                     What is the nature of this property?
-                    <select name="discovery" id="" className="mt-2 p-3 w-full rounded-xl border-r-[15px] border-transparent font-normal px-3">
-                      <option value="" selected>Residential</option>
-                      <option value="">Office</option>
-                      <option value="">Commercial</option>
-                    </select>
+                    <div className="border mt-2 rounded-full">
+                      <select name="discovery" id="" className=" p-3 w-full rounded-full border-r-[15px] border-transparent font-normal px-3">
+                        <option value="" selected>Residential</option>
+                        <option value="">Office</option>
+                        <option value="">Commercial</option>
+                      </select>
+                    </div>
                   </div>
                   <div className="w-full">
                     How often do you require cleaning services?
-                    <select name="discovery" id="" className="mt-2 p-3 w-full rounded-xl border-r-[15px] border-transparent font-normal px-3">
-                      <option value="">Weekly</option>
-                      <option value="" selected>Bi-weekly</option>
-                      <option value="">Monthly</option>
-                      <option value="">One-time</option>
-                    </select>
+
+                    <div className="border mt-2 rounded-full">
+                      <select name="discovery" id="" className="p-3 w-full rounded-full border-r-[15px] border-transparent font-normal px-3">
+                        <option value="">Weekly</option>
+                        <option value="" selected>Bi-weekly</option>
+                        <option value="">Monthly</option>
+                        <option value="">One-time</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
 
@@ -163,7 +171,7 @@ export default function Home() {
               If you would like to discuss any related matter in private, please contact us directly.
             </div>
 
-            <button className="mt-6 py-3 font-medium transition-all ease-in-out duration-500 shadow-3xl hover:shadow-xl css-selector bg-[#007AFF] hover:bg-[#ffade8] w-full text-white rounded-full p-2 px-6">
+            <button className="mt-6 py-3 font-medium text-lg transition-all ease-in-out duration-500 shadow-3xl hover:shadow-xl css-selector bg-[#007AFF] hover:bg-[#007AFF] w-full text-white rounded-full p-2 px-6">
               Request a Quote
             </button>
           </form>

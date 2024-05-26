@@ -9,9 +9,12 @@ export default function Home() {
 
       <div className="flex justify-center w-full p-5 pt-0 px-10">
         <div className="flex flex-col w-full max-w-[1040px] mt-[130px]">
-          <h1>Our Projects</h1><br />
-          Explore our portfolio to see the exceptional work we&apos;ve done in building restoration and preservation.
-          <br /><br />
+          <div className="text-center">
+            <div className="text-sm uppercase font-bold mb-2 text-[#007AFF] tracking-widest">Projects</div>
+            <div className="text-3xl font-bold tracking-wide">
+              Explore Our Portfolio of Work
+            </div>
+          </div><br /><br />
           <div className="grid grid-cols-3 gap-8">
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>

@@ -9,9 +9,12 @@ export default function Home() {
 
       <div className="flex justify-center w-full p-5 pt-0 px-10">
         <div className="flex flex-col w-full max-w-[1040px] mt-[130px]">
-          <h1>Our Services</h1><br />
-          We provide top-notch building restoration and preservation services, using expert teams and advanced techniques.
-          <br /><br />
+          <div className="text-center">
+            <div className="text-sm uppercase font-bold mb-2 text-[#007AFF] tracking-widest">Services</div>
+            <div className="text-3xl font-bold tracking-wide">
+              Expert Teams and Advanced Techniques
+            </div>
+          </div><br /><br />
           <div className="grid grid-cols-3 gap-8">
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>

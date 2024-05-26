@@ -30,7 +30,7 @@ export default function Header() {
             </div>
             <div>
               <Link href="/quote">
-                <div className="bg-[#007AFF] shadow-xl rounded-full text-white py-2 px-6 ml-1">
+                <div className="bg-[#007AFF] shadow-xl text-lg rounded-full text-white py-2 px-6 ml-1">
                   Request a Quote
                 </div>
               </Link>
