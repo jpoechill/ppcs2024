@@ -101,7 +101,7 @@ export default function Home() {
 
             <div className="grid auto-rows-min gap-6">
               <div className="min-w-full bg-[white] border rounded-xl transition-all ease-in-out duration-500 shadow-[0_25px_50px_-12px_rgb(0,0,0,0.0)] hover:shadow-[0_10px_50px_-12px_rgb(0,0,0,.15)]  text-sm p-7 text-left">
-                Working with PPC&S on our historic theater was like stepping back in time but with all the modern comforts you could want. They nailed the classic look we love and added some cool, new features that really make the place shine. Everyone was super nice and really cared about our vision.
+                Working with David on our historic theater was like stepping back in time but with all the modern comforts you could want. They nailed the classic look we love and added some cool, new features that really make the place shine. Everyone was super nice and really cared about our vision.
                 <div className="flex flex-row items-center mt-7">
                   <Image src="/avatars/male-06.png" alt="" className="rounded-full" width={60} height={60} />
                   <div className="flex flex-col">
