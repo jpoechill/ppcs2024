@@ -26,7 +26,7 @@ export default function Home() {
                       Sarah M.
                     </span>
                     <div className="font-sans font-extralight text-xs pl-5">
-                      Oakland, CA
+                      Pittsbugh, PA
                     </div>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ export default function Home() {
                       John D.
                     </span>
                     <div className="font-sans font-extralight text-xs pl-5">
-                      Piedmont, CA
+                      San Jose, CA
                     </div>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ export default function Home() {
                       José P.
                     </span>
                     <div className="font-sans font-extralight text-xs pl-5">
-                      Oakland, CA
+                      Los Angeles, CA
                     </div>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Home() {
                       Arthur O.
                     </span>
                     <div className="font-sans font-extralight text-xs pl-5">
-                      Piedmont, CA
+                      Newark, CA
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ export default function Home() {
                       Alicia A.
                     </span>
                     <div className="font-sans font-extralight text-xs pl-5">
-                      Oakland, CA
+                      San Francisco, CA
                     </div>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ export default function Home() {
                       Jennifer B.
                     </span>
                     <div className="font-sans font-extralight text-xs pl-5">
-                      Piedmont, CA
+                      Fremont, CA
                     </div>
                   </div>
                 </div>
