@@ -10,7 +10,7 @@ export default function Home() {
       <div className="animate-[fade-me-in_.5s_ease-in-out]">
         <div className="flex justify-center w-full p-5 pt-0 px-10">
           <div className="flex flex-row w-full max-w-[1040px] mt-[130px]">
-            <Image src="/cover_group_02.jpg" alt="Group Photo" className="rounded-2xl shadow-2xl" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill></Image>
+            <Image src="/cover_group_02.jpg" alt="Group Photo" className="rounded-2xl shadow-2xl" priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill></Image>
           </div>
         </div>
 
