@@ -10,7 +10,7 @@ export default function Home() {
       <div className="animate-[fade-me-in_.5s_ease-in-out]">
         <div className="flex justify-center w-full p-5 pt-0 px-10">
           <div className="flex flex-row w-full max-w-[1040px] mt-[130px]">
-            <Image src="/cover_group_02.jpg" alt="Group Photo" className="rounded-2xl shadow-2xl" priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill></Image>
+            <Image src="/cover_group_02.jpg" alt="Group Photo" className="rounded-2xl shadow-2xl" priority width={1200} height={500}></Image>
           </div>
         </div>
 
@@ -65,7 +65,10 @@ export default function Home() {
         <div className="flex justify-center w-full p-5 px-10 mt-10 py-10">
           <div className="flex flex-col w-full max-w-[1040px]">
             <h1>Client List</h1>
-            <Image src="/client-list.png" alt="Client List" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill></Image>
+            <div className="relative">
+              <Image src="/client-list.png" alt="Client List"
+                width={1200} height={500} ></Image>
+            </div>
           </div>
         </div>
 
@@ -75,7 +78,7 @@ export default function Home() {
               PPCS is the Leading Company for Building Restoration and Preservation
             </div>
             <br />
-            Since 1983, it has been our mission to be the leading source for efficient building restoration and preservation services. When you choose PPC&S’s building preservation services, you are receiving services from our efficient and results driven professionals. We are proud to have an exemplary safety record and a work force of over 100 highly trained and dedicated men and women.
+            Since 1983, it has been our mission to be the leading source for efficient building restoration and preservation services. When you choose PPC&S&apos;s building preservation services, you are receiving services from our efficient and results driven professionals. We are proud to have an exemplary safety record and a work force of over 100 highly trained and dedicated men and women.
           </div>
         </div>
       </div>
