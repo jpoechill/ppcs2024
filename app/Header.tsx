@@ -12,7 +12,9 @@ export default function Header() {
               <Image src="/30-years-light.png" alt="Top Logo" width={60} height={0}></Image>
             </Link>
           </div>
+
           <div className="flex flex-row items-center gap-5 text-lg">
+
             <div>
               <Link href="/about">About</Link>
             </div>
@@ -28,9 +30,11 @@ export default function Header() {
             <div>
               <Link href="/contact">Contact</Link>
             </div>
+          </div>
+          <div className="flex flex-row items-center gap-5 text-lg">
             <div>
               <Link href="/quote">
-                <div className="bg-[#007AFF] shadow-xl text-lg rounded-full text-white py-2 px-6 ml-1">
+                <div className="bg-[#007AFF] shadow-xl text-lg rounded-full text-white py-2 px-8 ml-1">
                   Request a Quote
                 </div>
               </Link>

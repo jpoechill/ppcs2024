@@ -1,13 +1,6 @@
 import Image from "next/image";
-import Header from "../Header"
-import Footer from "../Footer"
-import Link from "next/link";
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function Home() {
   return (
     <main>
       <h1>Our Mission</h1><br /><br />
@@ -20,6 +13,7 @@ export default function RootLayout({
       <h1>Commitment to Quality</h1><br /><br />
       Quality and craftsmanship are the cornerstones of our work. We are committed to providing the highest quality service, ensuring that every restoration project not only meets but exceeds client expectations. Our dedication to excellence guarantees that the beauty and integrity of your building are preserved for generations to come.
       <br /><br />
-    </main>
+      Thank you for considering us for your building restoration and preservation needs. We look forward to the opportunity to work with you and demonstrate our commitment to quality and exceptional service.
+    </main >
   );
 }
