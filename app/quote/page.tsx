@@ -176,7 +176,7 @@ export default function Home() {
               If you would like to discuss any related matter in private, please contact us directly.
             </div>
 
-            <button className="mt-6 py-3 font-medium text-lg transition-all ease-in-out duration-500 shadow-3xl hover:shadow-xl css-selector bg-[#007AFF] hover:bg-[#007AFF] w-full text-white rounded-full p-2 px-6">
+            <button className="mt-6 py-3 font-medium text-lg transition-all ease-in-out duration-500 shadow-3xl hover:shadow-xl css-selector bg-[#0062CC] hover:bg-[#0062CC] w-full text-white rounded-full p-2 px-6">
               Request a Quote
             </button>
           </form>

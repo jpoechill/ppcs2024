@@ -34,7 +34,7 @@ export default function Header() {
           <div className="flex flex-row items-center gap-5 text-lg">
             <div>
               <Link href="/quote">
-                <div className="bg-[#007AFF] shadow-xl text-lg rounded-full text-white py-2 px-8 ml-1">
+                <div className="bg-[#0062CC] shadow-xl text-lg rounded-full text-white py-2 px-8 ml-1">
                   Request a Quote
                 </div>
               </Link>
