@@ -1,13 +1,4 @@
-import Image from "next/image";
-import Header from "../Header"
-import Footer from "../Footer"
-import Link from "next/link";
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout() {
   return (
     <main>
       <h1>Our Mission</h1><br /><br />
