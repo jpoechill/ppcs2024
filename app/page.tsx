@@ -9,8 +9,8 @@ export default function Home() {
 
       <div className="animate-[fade-me-in_.5s_ease-in-out]">
         <div className="flex justify-center w-full p-5 pt-0 px-10">
-          <div className="flex flex-row w-full max-w-[1040px] mt-[130px]">
-            <Image src="/cover_group_02.jpg" alt="Group Photo" className="rounded-2xl shadow-2xl" priority width={1200} height={500}></Image>
+          <div className="flex flex-row w-full max-w-[1040px] rounded-xl overflow-hidden mt-[130px]">
+            <Image src="/cover_group_02.jpg" alt="Group Photo" className="h-[300px] lg:h-full w-full index-0 object-cover bg-cover bg-no-repeat" priority width={1200} height={500}></Image>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ export default function Home() {
           <div className="flex flex-col w-full max-w-[1040px]">
             <h1>Recent Projects</h1>
             <br />
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid lg:grid-rows-1 lg:grid-cols-3 gap-8">
               <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
                 <div>
                   <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
@@ -65,7 +65,7 @@ export default function Home() {
         <div className="flex justify-center w-full p-5 px-10 mt-10 py-10">
           <div className="flex flex-col w-full max-w-[1040px]">
             <h1>Client List</h1>
-            <div className="relative">
+            <div className="relative z-[-1]">
               <Image src="/client-list.png" alt="Client List"
                 width={1200} height={500} ></Image>
             </div>
