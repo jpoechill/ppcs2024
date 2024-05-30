@@ -15,7 +15,7 @@ export default function Home() {
               Explore Our Portfolio of Work
             </div>
           </div><br /><br />
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-rows-1 lg:grid-cols-3 gap-8">
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
                 <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>

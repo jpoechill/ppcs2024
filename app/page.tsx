@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="animate-[fade-me-in_.5s_ease-in-out]">
         <div className="flex justify-center w-full p-5 pt-0 px-10">
-          <div className="flex flex-row w-full max-w-[1040px] rounded-xl overflow-hidden mt-[130px]">
+          <div className="flex flex-row w-full max-w-[1040px] rounded-xl overflow-hidden mt-[130px] shadow-xl">
             <Image src="/cover_group_02.jpg" alt="Group Photo" className="h-[300px] lg:h-full w-full index-0 object-cover bg-cover bg-no-repeat" priority width={1200} height={500}></Image>
           </div>
         </div>
@@ -18,8 +18,18 @@ export default function Home() {
           <div className="flex flex-col w-full max-w-[1040px]">
             <h1>Featured Work</h1>
             <br />
-            <div className="w-full rounded-2xl min-h-[350px] bg-black">
-              WHITE
+            <div className="w-full rounded-2xl overflow-hidden min-h-[350px] grid grid-cols-8 shadow-xl">
+              <div className="col-span-5 bg-black bg-cover bg-no-repeat bg-center" style={{ backgroundImage: "url('/thumbnails/millenium.png')" }}>
+              </div>
+              <div className="col-span-3 p-5">
+                <span className="text-bold font-medium text-lg">
+                  Millenium Tower
+                </span>
+                <br /><br />
+                The Millenium Tower in San Francisco opened to residents in 2009, and includes two buildings – one over 12 stories tall, and the other over 58 stories. In 2016, it was discovered and released to the public that the tower was sinking and leaning.
+                <br /><br />
+                Learn more...
+              </div>
             </div>
           </div>
         </div>

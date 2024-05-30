@@ -80,7 +80,7 @@ export default function Home() {
           <form ref={form} onSubmit={sendEmail}>
             <div className="text-md font-bold text-left bg-[#FFF] border shadow-lg py-8 rounded-2xl">
               <div ref={ref1} className="font-normal text-md overflow-hidden px-6 transition-all ease-in-out delay-0 duration-500" style={{ "height": !showGeneral ? 0 : heightRef1 }}>
-                <div className=" font-medium text-center mb-1">
+                <div className=" font-light text-center mb-1">
                   {/* General Information */}
                   {/* Thank you for considering us for your building restoration and preservation needs. We look forward to the opportunity to work with you and demonstrate our commitment to quality and exceptional service. */}
 
