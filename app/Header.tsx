@@ -41,7 +41,7 @@ export default function Header() {
                 <Link href="/testimonials">Testimonials</Link>
               </div>
               <div>
-                <Link href="/contact/electronic">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </div>
             </div>
             <div className="hidden lg:flex flex-row lg:items-center gap-5 text-lg">

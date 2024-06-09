@@ -5,11 +5,12 @@ import Footer from "../Footer"
 export default function Home() {
   return (
     <main>
-      <h1>Telephone</h1><br /><br />
-      Please reach us directly by phone at: 1-888-772-2448.
+      <h1>Contact Us</h1><br /><br />
+      We&apos;re excited to hear from you!
       <br /><br />
-      Our hours are 9am-5pm, Monday through Friday.
+      Whether you have a question, need support, or just want to share your feedback, our team is here to help.
       <br /><br />
+      Feel free to reach out through any of the contact methods above, and we&apos;ll get back to you as soon as possible.
     </main>
   );
 }
