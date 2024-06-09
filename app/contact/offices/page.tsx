@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="animate-[fade-me-in_.5s_ease-in-out]">
-      <h1>Locations</h1><br /><br />
+      <h1>Office Locations</h1><br /><br />
 
       <div className="grid grid-cols-2 gap-y-10">
         <div>
