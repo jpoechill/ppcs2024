@@ -4,16 +4,18 @@ export default function Home() {
   return (
     <main className="animate-[fade-me-in_.5s_ease-in-out]">
       <h1>Safety</h1><br /><br />
-      Our mission is to deliver high-quality and effective building restoration and preservation services. We understand the critical importance of your property&apos;s appearance and structural integrity, and we are dedicated to achieving the results you desire. Our team of professionals, composed of experienced and highly trained men and women, brings extensive knowledge and expertise to every project.
+      Safe job sites are all about protecting our people. We believe it is our moral responsibility to make sure every single worker in the field and in the office goes home safely every day, our friends and families count on this. Our initiatives reach well-beyond wearing safety glasses and hard hats. We make prevention and awareness a priority and it has become second nature.
       <br /><br />
 
-      <h1>Our Expertise</h1><br /><br />
-      We pride ourselves on staying at the forefront of industry methods and utilizing state-of-the-art technology to provide superior building preservation solutions. Our team continuously updates their skills and techniques to ensure we offer the most advanced and effective services available. Whether it&apos;s historical preservation, façade restoration, structural repairs, or waterproofing, we tailor our approach to meet the unique needs of each project.
+      Not only is safety good for our people, it&apos;s also good for business. Safe job sites produce projects that stay on schedule and on budget by avoiding costly delays due to unsafe practices. Safety is an essential business principle, and it is as important to a project’s success as are our restoration processes.
+
       <br /><br />
-      <h1>Commitment to Quality</h1><br /><br />
-      Quality and craftsmanship are the cornerstones of our work. We are committed to providing the highest quality service, ensuring that every restoration project not only meets but exceeds client expectations. Our dedication to excellence guarantees that the beauty and integrity of your building are preserved for generations to come.
-      <br /><br />
-      Thank you for considering us for your building restoration and preservation needs. We look forward to the opportunity to work with you and demonstrate our commitment to quality and exceptional service.
+      Our company has invested resources, time, and money to ensure that every job site is safe for our employees, subcontractors and suppliers. This investment has paid off for our people and ultimately, our clients. PPCS maintains one of the lowest injury rates in the country – year after year. We have never experienced a loss of life or serious injury.
+
+
+
+
+
     </main >
   );
 }

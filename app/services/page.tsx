@@ -18,7 +18,7 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-8">
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/services/historic.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">Historic Restoration</div>
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/services/consulting.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">Project Consulting and Testing</div>
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/services/building.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">Building Restoration & Cleaning</div>
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/services/weatherproofing.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">Sealants, Coatings & Weatherproofing</div>
@@ -54,7 +54,7 @@ export default function Home() {
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/services/glass.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">Glass Restoration & Cleaning</div>
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/services/birdnetting.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">Bird Control Systems</div>

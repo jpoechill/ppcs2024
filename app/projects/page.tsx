@@ -15,10 +15,10 @@ export default function Home() {
               Explore Our Portfolio of Work
             </div>
           </div><br /><br />
-          <div className="grid grid-rows-1 lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-rows-1 lg:grid-cols-3 gap-8">
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/stanford-knight-01.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">Stanford Knight Center</div>
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/600-canal.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">600 Canal</div>
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/millenium.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">
@@ -47,35 +47,88 @@ export default function Home() {
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/dropbox.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
-                <div className="mt-0 mb-3 font-medium text-lg">
-                  Dropbox
-                </div>
-                We are contracted to clean and fix cracks in the exteriors windows of the renowned Millenium Tower.
+                <div className="mt-0 mb-3 font-medium text-lg">Dropbox</div>
+                The Exchange building required exterior chemical cleaning due to calcium build-up and efflorescence.
               </div>
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/408-panama-stanford.png" alt="Thumbnail" width={500} height={200}></Image>
+              </div>
+              <div className="p-5 pb-10">
+                <div className="mt-0 mb-3 font-medium text-lg">Panama Mall</div>
+                Stanford University required cleaning and repairing of discolored panels.
+              </div>
+            </div>
+            <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+              <div>
+                <Image src="/thumbnails/hyatt-regency-sculpture.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">
                   Hyatt Regency
                 </div>
-                We are contracted to clean and fix cracks in the exteriors windows of the renowned Millenium Tower.
+                A large sculpture in the atrium of the Hyatt Regency in San Francisco require cleaning and repairs.
               </div>
             </div>
             <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
               <div>
-                <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                <Image src="/thumbnails/oyster-point-sf.png" alt="Thumbnail" width={500} height={200}></Image>
+              </div>
+              <div className="p-5 pb-10">
+                <div className="mt-0 mb-3 font-medium text-lg">Oyster Point</div>
+                We provided exterior GFRC cleaning & sealing services for CBRE in South San Francisco, CA.
+              </div>
+            </div>
+            <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+              <div>
+                <Image src="/thumbnails/childrens-hospital-ut.png" alt="Thumbnail" width={500} height={200}></Image>
+              </div>
+              <div className="p-5 pb-10">
+                <div className="mt-0 mb-3 font-medium text-lg">Children&apos;s Hospital</div>
+                We provided exterior frame-restoration services for the Children&apos;s Hospital in Salt Lake City, UT.
+              </div>
+            </div>
+            <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+              <div>
+                <Image src="/thumbnails/alcatraz.png" alt="Thumbnail" width={500} height={200}></Image>
               </div>
               <div className="p-5 pb-10">
                 <div className="mt-0 mb-3 font-medium text-lg">
-                  Samsung
+                  Alcatraz Island
                 </div>
-                We are contracted to clean and fix cracks in the exteriors windows of the renowned Millenium Tower.
+                We installed a bird-netting system for the historical Alcatraz Island, in San Francisco, CA.
+              </div>
+            </div><div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+              <div>
+                <Image src="/thumbnails/pge-slo-ca.png" alt="Thumbnail" width={500} height={200}></Image>
+              </div>
+              <div className="p-5 pb-10">
+                <div className="mt-0 mb-3 font-medium text-lg">PG&E</div>
+                We provided historical building restoration services for the PG&E building in San Luis Obispo, CA.
+              </div>
+            </div>
+            <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+              <div>
+                <Image src="/thumbnails/mcdills.png" alt="Thumbnail" width={500} height={200}></Image>
+              </div>
+              <div className="p-5 pb-10">
+                <div className="mt-0 mb-3 font-medium text-lg">McDills Air Force Base</div>
+                We designed and installed bird netting systems in 7 aircraft hangars.
+              </div>
+            </div>
+            <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+              <div>
+                <Image src="/thumbnails/stpauls-oakland.png" alt="Thumbnail" width={500} height={200}></Image>
+              </div>
+              <div className="p-5 pb-10">
+                <div className="mt-0 mb-3 font-medium text-lg">
+                  St Paul&apos;s Towers
+                </div>
+                We designed and installed 3/4&quot; bird netting for a community of senior citizens.
               </div>
             </div>
           </div>

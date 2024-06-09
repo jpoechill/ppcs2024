@@ -41,7 +41,7 @@ export default function Home() {
             <div className="grid lg:grid-rows-1 lg:grid-cols-3 gap-8">
               <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
                 <div>
-                  <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                  <Image src="/thumbnails/stanford-knight-01.png" alt="Thumbnail" width={500} height={200}></Image>
                 </div>
                 <div className="p-5 pb-10">
                   <div className="mt-0 mb-3 font-medium text-lg">Stanford Knight Center</div>
@@ -50,7 +50,7 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
                 <div>
-                  <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                  <Image src="/thumbnails/600-canal.png" alt="Thumbnail" width={500} height={200}></Image>
                 </div>
                 <div className="p-5 pb-10">
                   <div className="mt-0 mb-3 font-medium text-lg">600 Canal</div>
@@ -59,13 +59,42 @@ export default function Home() {
               </div>
               <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
                 <div>
-                  <Image src="/thumbnail_01.png" alt="Thumbnail" width={500} height={200}></Image>
+                  <Image src="/thumbnails/millenium.png" alt="Thumbnail" width={500} height={200}></Image>
                 </div>
                 <div className="p-5 pb-10">
                   <div className="mt-0 mb-3 font-medium text-lg">
                     Millenium Tower
                   </div>
                   We are contracted to clean and fix cracks in the exteriors windows of the renowned Millenium Tower.
+                </div>
+              </div>
+              <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+                <div>
+                  <Image src="/thumbnails/dropbox.png" alt="Thumbnail" width={500} height={200}></Image>
+                </div>
+                <div className="p-5 pb-10">
+                  <div className="mt-0 mb-3 font-medium text-lg">Dropbox</div>
+                  The Exchange building required exterior chemical cleaning due to calcium build-up and efflorescence.
+                </div>
+              </div>
+              <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+                <div>
+                  <Image src="/thumbnails/408-panama-stanford.png" alt="Thumbnail" width={500} height={200}></Image>
+                </div>
+                <div className="p-5 pb-10">
+                  <div className="mt-0 mb-3 font-medium text-lg">Panama Mall</div>
+                  Stanford University required cleaning and repairing of discolored panels.
+                </div>
+              </div>
+              <div className="w-full rounded-2xl min-h-[200px] shadow-xl border overflow-hidden">
+                <div>
+                  <Image src="/thumbnails/hyatt-regency-sculpture.png" alt="Thumbnail" width={500} height={200}></Image>
+                </div>
+                <div className="p-5 pb-10">
+                  <div className="mt-0 mb-3 font-medium text-lg">
+                    Hyatt Regency
+                  </div>
+                  A large sculpture in the atrium of the Hyatt Regency in San Francisco require cleaning and repairs.
                 </div>
               </div>
             </div>

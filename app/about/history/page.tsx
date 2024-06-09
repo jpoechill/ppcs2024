@@ -3,16 +3,58 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="animate-[fade-me-in_.5s_ease-in-out]">
-      <h1>Our History</h1><br /><br />
-      Our mission is to deliver high-quality and effective building restoration and preservation services. We understand the critical importance of your property&apos;s appearance and structural integrity, and we are dedicated to achieving the results you desire. Our team of professionals, composed of experienced and highly trained men and women, brings extensive knowledge and expertise to every project.
-      <br /><br />
-      <h1>Our Expertise</h1><br /><br />
-      We pride ourselves on staying at the forefront of industry methods and utilizing state-of-the-art technology to provide superior building preservation solutions. Our team continuously updates their skills and techniques to ensure we offer the most advanced and effective services available. Whether it&apos;s historical preservation, façade restoration, structural repairs, or waterproofing, we tailor our approach to meet the unique needs of each project.
-      <br /><br />
-      <h1>Commitment to Quality</h1><br /><br />
-      Quality and craftsmanship are the cornerstones of our work. We are committed to providing the highest quality service, ensuring that every restoration project not only meets but exceeds client expectations. Our dedication to excellence guarantees that the beauty and integrity of your building are preserved for generations to come.
-      <br /><br />
-      Thank you for considering us for your building restoration and preservation needs. We look forward to the opportunity to work with you and demonstrate our commitment to quality and exceptional service.
+      <h1>Our History</h1>
+      <br />
+      <br />
+
+      <p>
+        We are a specialty building restoration and preservation construction firm.
+      </p>
+
+      <br />
+      <p>
+        As an experienced building restoration and cleaning company, we&apos;ve perfected the following building preservation services:
+      </p>
+      <br />
+
+      <div className="grid grid-cols-2 px-5">
+        <ul className="list-disc">
+          <li>
+            Eco-Friendly Chemical Cleaning and Sealing</li>
+          <li>Implementing Bird Control Systems</li>
+          <li>Building Waterproofing Services</li>
+        </ul>
+
+        <ul className="list-disc">
+          <li>Window Cleaning and Restoration</li>
+          <li>Historic Building Restoration</li>
+          <li>Property Consulting Services</li>
+        </ul>
+      </div>
+
+      <br />
+
+      <p>
+        With an experienced workforce of over 100 men and women, every building restoration and preservation service we are commissioned to do is guaranteed to give you the results you want. We make sure to understand what results you want from whatever building restoration and preservation service you receive. Before we begin, we will meet with you and develop a complete analysis and project plan for you.
+      </p>
+
+      <br />
+
+      <p>
+        Once we gather all the information and lay out the details of your project, our experts will also provide a photo journal, a written statement of the details of your building restoration and preservation project, the tools and procedures that will be used, the schedule of your project, and the entire cost of the project. Each project we’ve done has been meticulously planned and executed because we understand that each customer’s needs and goals for their property are different. By building a close relationship with you and taking the time to listen to what you need, we ensure that we offer top service and excellent results.
+      </p>
+
+      <br />
+
+      <p>
+        Our president, Paul M. Popa, has been in the building restoration and preservation business for more than 30 years, following in the footsteps of his father, John Z. Popa. With many years of combined experience, PPC&amp;S, Inc. has developed innovative renovation methods and techniques and considered to be the best in the business. We are proud to have an endless list of successful case studies and satisfied long-standing clients.  When you trust in PPC&amp;S, you can rest easy knowing that you are in good hands.
+      </p>
+
+      <br />
+
+      <p>
+        If you are in need of an efficient highly rated building restoration and preservation or any other commercial building maintenance service, trust in the experts at PPC&amp;S.
+      </p>
     </main >
   );
 }
